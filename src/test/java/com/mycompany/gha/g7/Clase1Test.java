@@ -44,8 +44,8 @@ public class Clase1Test {
     public void testSumar() {
         System.out.println("sumar2");
         Clase1 instance = new Clase1();
-        int result = instance.sumar(10, 50);
-        assertEquals(59, result);
+        int result = instance.sumar(50, 50);
+        assertEquals(100, result);
     }
     
 }
